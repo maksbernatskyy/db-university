@@ -2,7 +2,7 @@
 
 Modellizzare la struttura di un database per memorizzare tutti i dati riguardanti una università.
 
-## departments
+## department
 
 - department_id BIGINT PK AI 
 - name VARCHAR(100) NOT NULL UNIQUE
