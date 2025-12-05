@@ -20,5 +20,4 @@ WHERE `degrees`.`level` = 'magistrale' AND `departments`.`name` = 'Dipartimento 
 
 SELECT *
 FROM `courses`
-JOIN `teachers`
-WHERE `teachers`.`id` = 44;
+JOIN `teachers` ON `teachers`.`id` = 44
